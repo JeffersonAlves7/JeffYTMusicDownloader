@@ -1,3 +1,6 @@
 env/
 music/
 .vscode/
+app.spec
+dist
+build
