@@ -73,7 +73,7 @@ window = tk.Tk()
 window.title(TITLE)
 window.geometry("500x250")
 window.resizable(False, False)
-window.iconphoto(False, tk.PhotoImage(file=os.path.join(os.path.dirname(__file__), 'icon.png')))
+window.iconphoto(False, tk.PhotoImage(file='icon.png'))
 
 # Crie o rótulo
 label = tk.Label(window, text="URL do vídeo:", font=("Helvetica", 12))
